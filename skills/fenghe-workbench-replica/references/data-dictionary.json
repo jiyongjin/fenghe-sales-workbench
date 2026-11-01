@@ -1,0 +1,1163 @@
+{
+  "table_count": 13,
+  "reference_date": "2026-11-01",
+  "encoding": "UTF-8 with BOM",
+  "scalar_storage": "string",
+  "tables": {
+    "notes": {
+      "title": "灵感手记",
+      "area": "all",
+      "fields": [
+        {
+          "key": "title",
+          "label": "标题",
+          "required": true
+        },
+        {
+          "key": "body",
+          "label": "灵感 / 心得 / 速记",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "key": "kind",
+          "label": "类型",
+          "type": "select",
+          "options": [
+            "灵感",
+            "心得",
+            "速记",
+            "教练建议"
+          ]
+        },
+        {
+          "key": "date",
+          "label": "记录日期",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "tags",
+          "label": "标签（用逗号分隔）"
+        },
+        {
+          "key": "status",
+          "label": "状态",
+          "type": "select",
+          "options": [
+            "收集",
+            "已转行动",
+            "归档"
+          ]
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "title",
+        "body",
+        "kind",
+        "date",
+        "tags",
+        "status",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "title": "",
+        "body": "",
+        "kind": "灵感",
+        "date": "2026-11-01",
+        "tags": "",
+        "status": "收集"
+      }
+    },
+    "reviews": {
+      "title": "复盘总结",
+      "area": "all",
+      "fields": [
+        {
+          "key": "title",
+          "label": "复盘标题",
+          "required": true
+        },
+        {
+          "key": "period",
+          "label": "复盘周期",
+          "type": "select",
+          "options": [
+            "日报",
+            "周报",
+            "月报"
+          ]
+        },
+        {
+          "key": "area",
+          "label": "复盘板块",
+          "type": "select",
+          "options": [
+            "主业工作",
+            "个人生活",
+            "创作成长"
+          ]
+        },
+        {
+          "key": "date",
+          "label": "复盘日期",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "body",
+          "label": "复盘正文（Markdown）",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "title",
+        "period",
+        "area",
+        "date",
+        "body",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "title": "",
+        "period": "日报",
+        "area": "主业工作",
+        "date": "2026-11-01",
+        "body": ""
+      }
+    },
+    "profiles": {
+      "title": "个人资料",
+      "area": "settings",
+      "fields": [
+        {
+          "key": "name",
+          "label": "姓名",
+          "required": true
+        },
+        {
+          "key": "birthday",
+          "label": "出生日期",
+          "type": "date"
+        },
+        {
+          "key": "role",
+          "label": "主业身份"
+        },
+        {
+          "key": "side_enabled",
+          "label": "开启创作成长",
+          "type": "select",
+          "options": [
+            "开启",
+            "关闭"
+          ]
+        },
+        {
+          "key": "side_name",
+          "label": "第三板块名称"
+        },
+        {
+          "key": "theme",
+          "label": "视觉风格",
+          "type": "select",
+          "options": [
+            "云境",
+            "曜金",
+            "潮汐"
+          ]
+        },
+        {
+          "key": "mode",
+          "label": "明暗模式",
+          "type": "select",
+          "options": [
+            "白天",
+            "夜间"
+          ]
+        },
+        {
+          "key": "text_size",
+          "label": "阅读字号",
+          "type": "select",
+          "options": [
+            "标准",
+            "舒适",
+            "大字"
+          ]
+        },
+        {
+          "key": "density",
+          "label": "布局密度",
+          "type": "select",
+          "options": [
+            "专注",
+            "舒展"
+          ]
+        },
+        {
+          "key": "background",
+          "label": "背景方案",
+          "type": "select",
+          "options": [
+            "流光",
+            "纯净",
+            "自定义"
+          ]
+        },
+        {
+          "key": "background_image",
+          "label": "背景图片（上传后自动填写）"
+        },
+        {
+          "key": "overlay",
+          "label": "背景遮罩浓度（0–90）",
+          "type": "number",
+          "min": 0,
+          "max": 90
+        }
+      ],
+      "columns": [
+        "id",
+        "name",
+        "birthday",
+        "role",
+        "side_enabled",
+        "side_name",
+        "theme",
+        "mode",
+        "text_size",
+        "density",
+        "background",
+        "background_image",
+        "overlay",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "name": "",
+        "birthday": "",
+        "role": "",
+        "side_enabled": "开启",
+        "side_name": "创作成长",
+        "theme": "云境",
+        "mode": "白天",
+        "text_size": "舒适",
+        "density": "专注",
+        "background": "流光",
+        "background_image": "",
+        "overlay": "35"
+      }
+    },
+    "tasks": {
+      "title": "待办事项",
+      "area": "all",
+      "fields": [
+        {
+          "key": "title",
+          "label": "事项",
+          "required": true
+        },
+        {
+          "key": "area",
+          "label": "所属板块",
+          "type": "select",
+          "options": [
+            "主业工作",
+            "个人生活",
+            "创作成长"
+          ]
+        },
+        {
+          "key": "category",
+          "label": "分类"
+        },
+        {
+          "key": "importance",
+          "label": "重要程度",
+          "type": "select",
+          "options": [
+            "重要",
+            "一般"
+          ]
+        },
+        {
+          "key": "urgency",
+          "label": "紧急程度",
+          "type": "select",
+          "options": [
+            "紧急",
+            "不紧急"
+          ]
+        },
+        {
+          "key": "due",
+          "label": "截止日期",
+          "type": "date"
+        },
+        {
+          "key": "status",
+          "label": "状态",
+          "type": "select",
+          "options": [
+            "待办",
+            "进行中",
+            "已完成"
+          ]
+        },
+        {
+          "key": "customer_id",
+          "label": "关联客户",
+          "type": "relation",
+          "table": "customers"
+        },
+        {
+          "key": "project_id",
+          "label": "关联项目",
+          "type": "relation",
+          "table": "projects"
+        },
+        {
+          "key": "notes",
+          "label": "备注 / 完成标准",
+          "type": "textarea"
+        },
+        {
+          "key": "completed_at",
+          "label": "完成日期",
+          "type": "date"
+        },
+        {
+          "key": "note_id",
+          "label": "来源灵感手记",
+          "type": "relation",
+          "table": "notes"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "title",
+        "area",
+        "category",
+        "importance",
+        "urgency",
+        "due",
+        "status",
+        "customer_id",
+        "project_id",
+        "notes",
+        "completed_at",
+        "note_id",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "title": "",
+        "area": "主业工作",
+        "category": "",
+        "importance": "重要",
+        "urgency": "不紧急",
+        "due": "2026-11-01",
+        "status": "待办",
+        "customer_id": "",
+        "project_id": "",
+        "notes": "",
+        "completed_at": "",
+        "note_id": ""
+      }
+    },
+    "goals": {
+      "title": "量化目标",
+      "area": "all",
+      "fields": [
+        {
+          "key": "name",
+          "label": "指标名称",
+          "required": true
+        },
+        {
+          "key": "area",
+          "label": "所属板块",
+          "type": "select",
+          "options": [
+            "主业工作",
+            "个人生活",
+            "创作成长"
+          ]
+        },
+        {
+          "key": "period",
+          "label": "目标周期",
+          "type": "select",
+          "options": [
+            "年度",
+            "季度",
+            "月度"
+          ]
+        },
+        {
+          "key": "year",
+          "label": "年份",
+          "type": "number",
+          "min": 2000,
+          "max": 2100,
+          "required": true
+        },
+        {
+          "key": "period_index",
+          "label": "季度 1–4 / 月份 1–12（年度填 1）",
+          "type": "number",
+          "min": 1,
+          "max": 12
+        },
+        {
+          "key": "unit",
+          "label": "单位（个 / 万元 / 元 / 次 / 小时…）",
+          "required": true
+        },
+        {
+          "key": "target",
+          "label": "目标值",
+          "type": "number",
+          "min": 0.0001,
+          "required": true
+        },
+        {
+          "key": "actual",
+          "label": "已达成值（手动指标）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "source",
+          "label": "达成值来源",
+          "type": "select",
+          "options": [
+            "手动填写",
+            "完成待办数",
+            "发布内容数",
+            "收入合计",
+            "运动分钟数",
+            "学习分钟数"
+          ]
+        },
+        {
+          "key": "notes",
+          "label": "指标口径 / 备注",
+          "type": "textarea"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "name",
+        "area",
+        "period",
+        "year",
+        "period_index",
+        "unit",
+        "target",
+        "actual",
+        "source",
+        "notes",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "name": "",
+        "area": "主业工作",
+        "period": "年度",
+        "year": "2026",
+        "period_index": "1",
+        "unit": "个",
+        "target": "1",
+        "actual": "0",
+        "source": "手动填写",
+        "notes": ""
+      }
+    },
+    "customers": {
+      "title": "客户资产",
+      "area": "work",
+      "fields": [
+        {
+          "key": "name",
+          "label": "客户名称",
+          "required": true
+        },
+        {
+          "key": "tier",
+          "label": "分级",
+          "type": "select",
+          "options": [
+            "S",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "key": "industry",
+          "label": "行业"
+        },
+        {
+          "key": "contact",
+          "label": "关键联系人"
+        },
+        {
+          "key": "contact_role",
+          "label": "联系人职务"
+        },
+        {
+          "key": "phone",
+          "label": "电话（仅本地保存）"
+        },
+        {
+          "key": "anniversary",
+          "label": "纪念日",
+          "type": "date"
+        },
+        {
+          "key": "hobby",
+          "label": "个人偏好（敏感字段）"
+        },
+        {
+          "key": "next_action",
+          "label": "下一行动"
+        },
+        {
+          "key": "notes",
+          "label": "备注",
+          "type": "textarea"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "name",
+        "tier",
+        "industry",
+        "contact",
+        "contact_role",
+        "phone",
+        "anniversary",
+        "hobby",
+        "next_action",
+        "notes",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "name": "",
+        "tier": "S",
+        "industry": "",
+        "contact": "",
+        "contact_role": "",
+        "phone": "",
+        "anniversary": "",
+        "hobby": "",
+        "next_action": "",
+        "notes": ""
+      }
+    },
+    "projects": {
+      "title": "销售项目",
+      "area": "work",
+      "fields": [
+        {
+          "key": "name",
+          "label": "项目 / 线索名称",
+          "required": true
+        },
+        {
+          "key": "customer_id",
+          "label": "关联客户",
+          "type": "relation",
+          "table": "customers"
+        },
+        {
+          "key": "kind",
+          "label": "类型",
+          "type": "select",
+          "options": [
+            "线索",
+            "商机",
+            "交付"
+          ]
+        },
+        {
+          "key": "stage",
+          "label": "阶段",
+          "type": "select",
+          "options": [
+            "待甄别",
+            "需求确认",
+            "方案共创",
+            "决策确认",
+            "商务合同",
+            "合同交付",
+            "已结项",
+            "已失单"
+          ]
+        },
+        {
+          "key": "source",
+          "label": "线索来源"
+        },
+        {
+          "key": "amount",
+          "label": "项目金额（万元）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "probability",
+          "label": "赢单概率（%）",
+          "type": "number",
+          "min": 0,
+          "max": 100
+        },
+        {
+          "key": "deadline",
+          "label": "关键节点日期",
+          "type": "date"
+        },
+        {
+          "key": "next_action",
+          "label": "下一行动"
+        },
+        {
+          "key": "payment_due",
+          "label": "到期应收（万元）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "payment_received",
+          "label": "已收款（万元）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "notes",
+          "label": "风险 / 交付备注",
+          "type": "textarea"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "name",
+        "customer_id",
+        "kind",
+        "stage",
+        "source",
+        "amount",
+        "probability",
+        "deadline",
+        "next_action",
+        "payment_due",
+        "payment_received",
+        "notes",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "name": "",
+        "customer_id": "",
+        "kind": "线索",
+        "stage": "待甄别",
+        "source": "",
+        "amount": "0",
+        "probability": "0",
+        "deadline": "",
+        "next_action": "",
+        "payment_due": "0",
+        "payment_received": "0",
+        "notes": ""
+      }
+    },
+    "activities": {
+      "title": "拜访与营销",
+      "area": "work",
+      "fields": [
+        {
+          "key": "title",
+          "label": "活动名称",
+          "required": true
+        },
+        {
+          "key": "kind",
+          "label": "活动类型",
+          "type": "select",
+          "options": [
+            "客户拜访",
+            "高层对接",
+            "营销活动",
+            "复盘记录"
+          ]
+        },
+        {
+          "key": "customer_id",
+          "label": "关联客户",
+          "type": "relation",
+          "table": "customers"
+        },
+        {
+          "key": "project_id",
+          "label": "关联项目",
+          "type": "relation",
+          "table": "projects"
+        },
+        {
+          "key": "date",
+          "label": "日期",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "objective",
+          "label": "本次目标",
+          "type": "textarea"
+        },
+        {
+          "key": "outcome",
+          "label": "事实 / 结果",
+          "type": "textarea"
+        },
+        {
+          "key": "next_action",
+          "label": "下次行动"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "title",
+        "kind",
+        "customer_id",
+        "project_id",
+        "date",
+        "objective",
+        "outcome",
+        "next_action",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "title": "",
+        "kind": "客户拜访",
+        "customer_id": "",
+        "project_id": "",
+        "date": "2026-11-01",
+        "objective": "",
+        "outcome": "",
+        "next_action": ""
+      }
+    },
+    "finance": {
+      "title": "财务管理",
+      "area": "life",
+      "fields": [
+        {
+          "key": "title",
+          "label": "收支事项",
+          "required": true
+        },
+        {
+          "key": "kind",
+          "label": "类型",
+          "type": "select",
+          "options": [
+            "收入",
+            "支出",
+            "期初余额"
+          ]
+        },
+        {
+          "key": "category",
+          "label": "分类"
+        },
+        {
+          "key": "amount",
+          "label": "金额（元）",
+          "type": "number",
+          "min": 0,
+          "required": true
+        },
+        {
+          "key": "date",
+          "label": "日期",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "account",
+          "label": "账户"
+        },
+        {
+          "key": "notes",
+          "label": "备注",
+          "type": "textarea"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "title",
+        "kind",
+        "category",
+        "amount",
+        "date",
+        "account",
+        "notes",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "title": "",
+        "kind": "收入",
+        "category": "",
+        "amount": "0",
+        "date": "2026-11-01",
+        "account": "",
+        "notes": ""
+      }
+    },
+    "health": {
+      "title": "健康管理",
+      "area": "life",
+      "fields": [
+        {
+          "key": "date",
+          "label": "记录日期",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "steps",
+          "label": "步数",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "sleep",
+          "label": "睡眠时长（小时）",
+          "type": "number",
+          "min": 0,
+          "max": 24
+        },
+        {
+          "key": "weight",
+          "label": "体重（kg，可留空）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "exercise",
+          "label": "运动时长（分钟）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "water",
+          "label": "饮水（ml）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "notes",
+          "label": "状态 / 备注",
+          "type": "textarea"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "date",
+        "steps",
+        "sleep",
+        "weight",
+        "exercise",
+        "water",
+        "notes",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "date": "2026-11-01",
+        "steps": "0",
+        "sleep": "0",
+        "weight": "0",
+        "exercise": "0",
+        "water": "0",
+        "notes": ""
+      }
+    },
+    "learning": {
+      "title": "学习管理",
+      "area": "life",
+      "fields": [
+        {
+          "key": "title",
+          "label": "课程 / 学习计划",
+          "required": true
+        },
+        {
+          "key": "category",
+          "label": "领域"
+        },
+        {
+          "key": "planned",
+          "label": "计划时长（分钟）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "completed",
+          "label": "已学时长（分钟）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "date",
+          "label": "学习日期",
+          "type": "date"
+        },
+        {
+          "key": "deadline",
+          "label": "计划完成日期",
+          "type": "date"
+        },
+        {
+          "key": "status",
+          "label": "状态",
+          "type": "select",
+          "options": [
+            "进行中",
+            "未开始",
+            "已完成"
+          ]
+        },
+        {
+          "key": "notes",
+          "label": "笔记 / 应用计划",
+          "type": "textarea"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "title",
+        "category",
+        "planned",
+        "completed",
+        "date",
+        "deadline",
+        "status",
+        "notes",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "title": "",
+        "category": "",
+        "planned": "0",
+        "completed": "0",
+        "date": "2026-11-01",
+        "deadline": "",
+        "status": "进行中",
+        "notes": ""
+      }
+    },
+    "family": {
+      "title": "家庭生活",
+      "area": "life",
+      "fields": [
+        {
+          "key": "title",
+          "label": "家庭事项",
+          "required": true
+        },
+        {
+          "key": "date",
+          "label": "日期",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "repeat",
+          "label": "重复方式",
+          "type": "select",
+          "options": [
+            "不重复",
+            "每年",
+            "每月"
+          ]
+        },
+        {
+          "key": "status",
+          "label": "状态",
+          "type": "select",
+          "options": [
+            "待办",
+            "已完成"
+          ]
+        },
+        {
+          "key": "notes",
+          "label": "备注",
+          "type": "textarea"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "title",
+        "date",
+        "repeat",
+        "status",
+        "notes",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "title": "",
+        "date": "2026-11-01",
+        "repeat": "不重复",
+        "status": "待办",
+        "notes": ""
+      }
+    },
+    "content": {
+      "title": "自媒体运营",
+      "area": "creator",
+      "fields": [
+        {
+          "key": "title",
+          "label": "选题 / 内容名称",
+          "required": true
+        },
+        {
+          "key": "platform",
+          "label": "平台",
+          "type": "select",
+          "options": [
+            "公众号",
+            "视频号",
+            "小红书",
+            "抖音",
+            "B站",
+            "其他"
+          ]
+        },
+        {
+          "key": "format",
+          "label": "形式",
+          "type": "select",
+          "options": [
+            "图文",
+            "短视频",
+            "长视频",
+            "直播"
+          ]
+        },
+        {
+          "key": "stage",
+          "label": "制作状态",
+          "type": "select",
+          "options": [
+            "选题池",
+            "撰稿中",
+            "制作中",
+            "待发布",
+            "已发布",
+            "已复盘"
+          ]
+        },
+        {
+          "key": "publish_date",
+          "label": "计划 / 实际发布日期",
+          "type": "date"
+        },
+        {
+          "key": "views",
+          "label": "阅读 / 播放（次）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "likes",
+          "label": "点赞（个）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "revenue",
+          "label": "内容收入（元）",
+          "type": "number",
+          "min": 0
+        },
+        {
+          "key": "notes",
+          "label": "受众价值 / 脚本 / 复盘",
+          "type": "textarea"
+        },
+        {
+          "key": "note_id",
+          "label": "来源灵感手记",
+          "type": "relation",
+          "table": "notes"
+        }
+      ],
+      "columns": [
+        "id",
+        "user_id",
+        "title",
+        "platform",
+        "format",
+        "stage",
+        "publish_date",
+        "views",
+        "likes",
+        "revenue",
+        "notes",
+        "note_id",
+        "updated_at"
+      ],
+      "defaults": {
+        "id": "",
+        "user_id": "<current-profile-id>",
+        "title": "",
+        "platform": "公众号",
+        "format": "图文",
+        "stage": "选题池",
+        "publish_date": "",
+        "views": "0",
+        "likes": "0",
+        "revenue": "0",
+        "notes": "",
+        "note_id": ""
+      }
+    }
+  }
+}

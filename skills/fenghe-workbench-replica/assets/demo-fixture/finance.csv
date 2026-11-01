@@ -1,0 +1,5 @@
+﻿id,user_id,title,kind,category,amount,date,account,notes,updated_at
+finance-24,person-yongjin,期初账户余额,期初余额,,42000,2026-01-01,主账户,,2026-11-01T02:40:26.012Z
+finance-25,person-yongjin,工资收入,收入,工资,28000,2026-10-28,主账户,,2026-11-01T02:40:26.012Z
+finance-26,person-yongjin,家庭采购,支出,家庭,680,2026-10-31,主账户,,2026-11-01T02:40:26.012Z
+finance-27,person-yongjin,课程订阅,支出,学习,299,2026-11-01,主账户,,2026-11-01T02:40:26.012Z

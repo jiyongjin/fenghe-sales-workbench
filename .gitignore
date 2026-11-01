@@ -1,0 +1,24 @@
+# Dependencies and generated application builds
+node_modules/
+/dist-local/
+/dist/
+/coverage/
+*.tsbuildinfo
+
+# Real user data, credentials, logs, and local hosting state
+data/
+.env*
+*.log
+.openai/
+.wrangler/
+.vinext/
+.next/
+*.pem
+*.key
+
+# Local packaging and scratch output
+/outputs/
+/validation/
+*.zip
+.DS_Store
+Thumbs.db

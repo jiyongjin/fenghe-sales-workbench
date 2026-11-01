@@ -1,0 +1,6 @@
+﻿id,user_id,name,area,period,year,period_index,unit,target,actual,source,notes,updated_at
+goals-19,person-yongjin,年度签约,主业工作,年度,2026,1,万元,1860,1268,手动填写,,2026-11-01T02:40:26.012Z
+goals-20,person-yongjin,季度高层拜访,主业工作,季度,2026,4,次,12,7,手动填写,,2026-11-01T02:40:26.012Z
+goals-21,person-yongjin,月度发布内容,创作成长,月度,2026,11,篇,8,0,发布内容数,,2026-11-01T02:40:26.012Z
+goals-22,person-yongjin,月度运动,个人生活,月度,2026,11,分钟,600,0,运动分钟数,,2026-11-01T02:40:26.012Z
+goals-41,person-lin,月度咨询收入,主业工作,月度,2026,11,元,50000,22000,手动填写,,2026-11-01T02:40:26.013Z

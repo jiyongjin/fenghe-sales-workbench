@@ -1,0 +1,21 @@
+{
+  "fictional": true,
+  "generated_at": "2026-11-01T02:40:26.020Z",
+  "reference_date": "2026-11-01",
+  "source": "createDemoData(); no existing user data read",
+  "counts": {
+    "notes": 2,
+    "reviews": 0,
+    "profiles": 2,
+    "tasks": 10,
+    "goals": 5,
+    "customers": 2,
+    "projects": 3,
+    "activities": 1,
+    "finance": 4,
+    "health": 5,
+    "learning": 2,
+    "family": 2,
+    "content": 3
+  }
+}

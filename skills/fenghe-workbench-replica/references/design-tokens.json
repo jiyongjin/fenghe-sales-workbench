@@ -1,0 +1,203 @@
+{
+  "source": "components/workbench/workbench.css",
+  "note": "Preserve CSS cascade. Later theme/night/text/density selectors override base variables.",
+  "rules": [
+    {
+      "selector": ".wb",
+      "variables": {
+        "--ink": "#172b47",
+        "--muted": "#536882",
+        "--line": "#29496926",
+        "--paper": "#fff",
+        "--tint": "#edf3fc",
+        "--accent": "#245cd4",
+        "--accent-soft": "#e0eaff",
+        "--on-accent": "#fff",
+        "--wall": "#dae6f9",
+        "--haze": "#f0f5ff",
+        "--glow": "#688ee6",
+        "--glow2": "#b5b9f0",
+        "--work": "#285dcc",
+        "--life": "#b45025",
+        "--creator": "#0b7f83",
+        "--danger": "#ba3a3b",
+        "--gold": "#936317",
+        "--body-size": "16px",
+        "--meta-size": "13px",
+        "--tiny-size": "12px",
+        "--row-height": "72px",
+        "--section-gap": "22px",
+        "--hero-pad": "20px"
+      }
+    },
+    {
+      "selector": ".wb[data-theme=\"曜金\"]",
+      "variables": {
+        "--ink": "#302e34",
+        "--muted": "#6e6154",
+        "--line": "#82592c28",
+        "--paper": "#fffdf8",
+        "--tint": "#fbf0df",
+        "--accent": "#996018",
+        "--accent-soft": "#f4dfb6",
+        "--wall": "#ecdfc9",
+        "--haze": "#fff8e8",
+        "--glow": "#d8a353",
+        "--glow2": "#b0a4cb"
+      }
+    },
+    {
+      "selector": ".wb[data-theme=\"潮汐\"]",
+      "variables": {
+        "--ink": "#133638",
+        "--muted": "#476e70",
+        "--line": "#23676428",
+        "--paper": "#fbfffe",
+        "--tint": "#e8f7f4",
+        "--accent": "#087e81",
+        "--accent-soft": "#cbefeb",
+        "--wall": "#d0eae8",
+        "--haze": "#eefcfa",
+        "--glow": "#3db5b0",
+        "--glow2": "#719cd6"
+      }
+    },
+    {
+      "selector": ".wb[data-mode=\"夜间\"]",
+      "variables": {
+        "--ink": "#eef3ff",
+        "--muted": "#b1c0d7",
+        "--line": "#b0c6e52e",
+        "--paper": "#13223a",
+        "--tint": "#1c3150",
+        "--accent": "#8ab0ff",
+        "--accent-soft": "#294368",
+        "--on-accent": "#101e33",
+        "--wall": "#091426",
+        "--haze": "#1e3455",
+        "--glow": "#3967b8",
+        "--glow2": "#55417e",
+        "--work": "#9bbaff",
+        "--life": "#ffbc8e",
+        "--creator": "#7cddd5",
+        "--danger": "#ffa4ab",
+        "--gold": "#edcd7b"
+      }
+    },
+    {
+      "selector": ".wb[data-mode=\"夜间\"][data-theme=\"曜金\"]",
+      "variables": {
+        "--paper": "#25232a",
+        "--tint": "#34303a",
+        "--wall": "#17171e",
+        "--haze": "#3d3032",
+        "--accent": "#e9bd70",
+        "--accent-soft": "#54422e",
+        "--on-accent": "#271e13",
+        "--muted": "#c4b8aa",
+        "--glow": "#b07c37",
+        "--glow2": "#66517c"
+      }
+    },
+    {
+      "selector": ".wb[data-mode=\"夜间\"][data-theme=\"潮汐\"]",
+      "variables": {
+        "--paper": "#102c31",
+        "--tint": "#1b3d43",
+        "--wall": "#081d25",
+        "--haze": "#16464a",
+        "--accent": "#6fdad0",
+        "--accent-soft": "#235257",
+        "--on-accent": "#09262b",
+        "--muted": "#abcacc",
+        "--glow": "#188d93",
+        "--glow2": "#426bac"
+      }
+    },
+    {
+      "selector": ".wb[data-text-size=\"标准\"]",
+      "variables": {
+        "--body-size": "15px",
+        "--meta-size": "12px",
+        "--tiny-size": "12px"
+      }
+    },
+    {
+      "selector": ".wb[data-text-size=\"大字\"]",
+      "variables": {
+        "--body-size": "18px",
+        "--meta-size": "15px",
+        "--tiny-size": "14px",
+        "--row-height": "82px"
+      }
+    },
+    {
+      "selector": ".wb[data-density=\"舒展\"]",
+      "variables": {
+        "--row-height": "92px",
+        "--section-gap": "32px",
+        "--hero-pad": "32px"
+      }
+    },
+    {
+      "selector": ".wb-summary-ribbon>button",
+      "variables": {
+        "--area": "var(--work)"
+      }
+    },
+    {
+      "selector": ".wb-summary-ribbon>.life",
+      "variables": {
+        "--area": "var(--life)"
+      }
+    },
+    {
+      "selector": ".wb-summary-ribbon>.creator",
+      "variables": {
+        "--area": "var(--creator)"
+      }
+    },
+    {
+      "selector": ".wb-task-list section>header",
+      "variables": {
+        "--priority": "var(--muted)"
+      }
+    },
+    {
+      "selector": ".wb-task-list .q0>header",
+      "variables": {
+        "--priority": "var(--danger)"
+      }
+    },
+    {
+      "selector": ".wb-task-list .q1>header",
+      "variables": {
+        "--priority": "var(--accent)"
+      }
+    },
+    {
+      "selector": ".wb-task-list .q2>header",
+      "variables": {
+        "--priority": "var(--gold)"
+      }
+    },
+    {
+      "selector": ".wb-goal-lines>button",
+      "variables": {
+        "--goal-color": "var(--work)"
+      }
+    },
+    {
+      "selector": ".wb-goal-lines>.life",
+      "variables": {
+        "--goal-color": "var(--life)"
+      }
+    },
+    {
+      "selector": ".wb-goal-lines>.creator",
+      "variables": {
+        "--goal-color": "var(--creator)"
+      }
+    }
+  ]
+}

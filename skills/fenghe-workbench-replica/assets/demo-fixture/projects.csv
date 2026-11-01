@@ -1,0 +1,4 @@
+﻿id,user_id,name,customer_id,kind,stage,source,amount,probability,deadline,next_action,payment_due,payment_received,notes,updated_at
+projects-7,person-yongjin,智能工厂协同平台一期,customers-5,商机,决策确认,老客户转介绍,320,70,2026-11-03,确认财务决策人,0,0,决策链待补齐,2026-11-01T02:40:26.012Z
+projects-8,person-yongjin,智慧供应链联合方案,customers-6,线索,需求确认,行业闭门会,180,30,2026-11-07,共创价值假设,0,0,,2026-11-01T02:40:26.012Z
+projects-9,person-yongjin,能源运营数字化交付,,交付,合同交付,,186,100,2026-10-30,确认验收与回款日期,68,40,,2026-11-01T02:40:26.012Z

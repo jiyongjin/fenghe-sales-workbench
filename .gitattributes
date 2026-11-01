@@ -1,0 +1,11 @@
+# Normalize ordinary source/docs across operating systems.
+* text=auto eol=lf
+*.jpg -text
+*.png -text
+
+# These files have published raw-byte SHA256 values. Preserve them verbatim.
+skills/fenghe-workbench-replica/assets/blueprint/** -text
+skills/fenghe-workbench-replica/assets/demo-fixture/** -text
+
+# Preserve upstream notice texts without rewriting their line endings.
+third-party-licenses/** -text

@@ -1,0 +1,6 @@
+﻿id,user_id,date,steps,sleep,weight,exercise,water,notes,updated_at
+health-28,person-yongjin,2026-11-01,6500,7.2,72.5,25,1800,,2026-11-01T02:40:26.012Z
+health-29,person-yongjin,2026-10-31,7150,7.3,72.5,30,1800,,2026-11-01T02:40:26.012Z
+health-30,person-yongjin,2026-10-30,7800,7.4,72.5,35,1800,,2026-11-01T02:40:26.012Z
+health-31,person-yongjin,2026-10-29,8450,7.5,72.5,40,1800,,2026-11-01T02:40:26.013Z
+health-32,person-yongjin,2026-10-28,9100,7.6000000000000005,72.5,45,1800,,2026-11-01T02:40:26.013Z

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "paths": { "@/*": ["./*"] }
+  },
+  "include": ["components/workbench/**/*.ts", "components/workbench/**/*.tsx", "local-entry.tsx", "vite.local.config.ts"],
+  "exclude": ["node_modules", "dist-local", "data"]
+}

@@ -1,0 +1,488 @@
+{
+  "source": "package-lock.json and installed package notice files",
+  "license_counts": {
+    "MIT": 39,
+    "Apache-2.0": 2,
+    "MPL-2.0": 12,
+    "ISC": 2,
+    "BSD-3-Clause": 1,
+    "0BSD": 1
+  },
+  "packages": [
+    {
+      "name": "@emnapi/core",
+      "version": "1.10.0",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@emnapi/runtime",
+      "version": "1.10.0",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@emnapi/wasi-threads",
+      "version": "1.2.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@napi-rs/wasm-runtime",
+      "version": "1.2.6",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.2.6.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@oxc-project/types",
+      "version": "0.130.0",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@oxc-project/types/-/types-0.130.0.tgz",
+      "local_notices": [
+        "third-party-licenses/@oxc-project__types/LICENSE"
+      ],
+      "upstream_repository": "git+https://github.com/oxc-project/oxc.git"
+    },
+    {
+      "name": "@rolldown/binding-android-arm64",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-android-arm64/-/binding-android-arm64-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-darwin-arm64",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-darwin-x64",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-freebsd-x64",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-freebsd-x64/-/binding-freebsd-x64-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-ppc64-gnu",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-linux-ppc64-gnu/-/binding-linux-ppc64-gnu-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-s390x-gnu",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-linux-s390x-gnu/-/binding-linux-s390x-gnu-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-openharmony-arm64",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-openharmony-arm64/-/binding-openharmony-arm64-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-wasm32-wasi",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-wasm32-wasi/-/binding-wasm32-wasi-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.0.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.1.tgz",
+      "local_notices": [],
+      "upstream_repository": "git+https://github.com/rolldown/rolldown.git"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz",
+      "local_notices": [
+        "third-party-licenses/@rolldown__pluginutils/LICENSE"
+      ],
+      "upstream_repository": "git+https://github.com/rolldown/plugins.git"
+    },
+    {
+      "name": "@tybys/wasm-util",
+      "version": "0.10.4",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.4.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "@types/node",
+      "version": "22.19.19",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@types/node/-/node-22.19.19.tgz",
+      "local_notices": [
+        "third-party-licenses/@types__node/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    {
+      "name": "@types/react",
+      "version": "19.2.14",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz",
+      "local_notices": [
+        "third-party-licenses/@types__react/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.2.3",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+      "local_notices": [
+        "third-party-licenses/@types__react-dom/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "version": "6.0.2",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz",
+      "local_notices": [
+        "third-party-licenses/@vitejs__plugin-react/LICENSE"
+      ],
+      "upstream_repository": "git+https://github.com/vitejs/vite-plugin-react.git"
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+      "local_notices": [
+        "third-party-licenses/csstype/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/frenic/csstype"
+    },
+    {
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "source_archive": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz",
+      "local_notices": [
+        "third-party-licenses/detect-libc/LICENSE"
+      ],
+      "upstream_repository": "git://github.com/lovell/detect-libc.git"
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+      "local_notices": [
+        "third-party-licenses/fdir/LICENSE"
+      ],
+      "upstream_repository": "git+https://github.com/thecodrr/fdir.git"
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz",
+      "local_notices": [
+        "third-party-licenses/lightningcss/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/parcel-bundler/lightningcss.git"
+    },
+    {
+      "name": "lightningcss-android-arm64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-android-arm64/-/lightningcss-android-arm64-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-darwin-arm64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-darwin-x64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-freebsd-x64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-linux-arm64-gnu",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-linux-arm64-musl",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-linux-x64-musl",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-win32-arm64-msvc",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.33.0.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "source_archive": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.33.0.tgz",
+      "local_notices": [
+        "third-party-licenses/lightningcss-win32-x64-msvc/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/parcel-bundler/lightningcss.git"
+    },
+    {
+      "name": "lucide-react",
+      "version": "1.31.0",
+      "license": "ISC",
+      "source_archive": "https://registry.npmjs.org/lucide-react/-/lucide-react-1.31.0.tgz",
+      "local_notices": [
+        "third-party-licenses/lucide-react/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/lucide-icons/lucide.git"
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.20",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz",
+      "local_notices": [
+        "third-party-licenses/nanoid/LICENSE"
+      ],
+      "upstream_repository": "ai/nanoid"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "license": "ISC",
+      "source_archive": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+      "local_notices": [
+        "third-party-licenses/picocolors/LICENSE"
+      ],
+      "upstream_repository": "alexeyraspopov/picocolors"
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",
+      "local_notices": [
+        "third-party-licenses/picomatch/LICENSE"
+      ],
+      "upstream_repository": "micromatch/picomatch"
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.32",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/postcss/-/postcss-8.5.32.tgz",
+      "local_notices": [
+        "third-party-licenses/postcss/LICENSE"
+      ],
+      "upstream_repository": "postcss/postcss"
+    },
+    {
+      "name": "react",
+      "version": "19.2.6",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/react/-/react-19.2.6.tgz",
+      "local_notices": [
+        "third-party-licenses/react/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/facebook/react.git"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.2.6",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.6.tgz",
+      "local_notices": [
+        "third-party-licenses/react-dom/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/facebook/react.git"
+    },
+    {
+      "name": "rolldown",
+      "version": "1.0.1",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/rolldown/-/rolldown-1.0.1.tgz",
+      "local_notices": [
+        "third-party-licenses/rolldown/LICENSE"
+      ],
+      "upstream_repository": "git+https://github.com/rolldown/rolldown.git"
+    },
+    {
+      "name": "scheduler",
+      "version": "0.27.0",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz",
+      "local_notices": [
+        "third-party-licenses/scheduler/LICENSE"
+      ],
+      "upstream_repository": "https://github.com/facebook/react.git"
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "license": "BSD-3-Clause",
+      "source_archive": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+      "local_notices": [
+        "third-party-licenses/source-map-js/LICENSE"
+      ],
+      "upstream_repository": "7rulnik/source-map-js"
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+      "local_notices": [
+        "third-party-licenses/tinyglobby/LICENSE"
+      ],
+      "upstream_repository": "git+https://github.com/SuperchupuDev/tinyglobby.git"
+    },
+    {
+      "name": "tslib",
+      "version": "2.9.1",
+      "license": "0BSD",
+      "source_archive": "https://registry.npmjs.org/tslib/-/tslib-2.9.1.tgz",
+      "local_notices": []
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "license": "Apache-2.0",
+      "source_archive": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "local_notices": [
+        "third-party-licenses/typescript/LICENSE.txt"
+      ],
+      "upstream_repository": "https://github.com/microsoft/TypeScript.git"
+    },
+    {
+      "name": "undici-types",
+      "version": "6.21.0",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz",
+      "local_notices": [
+        "third-party-licenses/undici-types/LICENSE"
+      ],
+      "upstream_repository": "git+https://github.com/nodejs/undici.git"
+    },
+    {
+      "name": "vite",
+      "version": "8.0.13",
+      "license": "MIT",
+      "source_archive": "https://registry.npmjs.org/vite/-/vite-8.0.13.tgz",
+      "local_notices": [
+        "third-party-licenses/vite/LICENSE.md"
+      ],
+      "upstream_repository": "git+https://github.com/vitejs/vite.git"
+    }
+  ]
+}
