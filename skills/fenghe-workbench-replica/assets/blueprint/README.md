@@ -1,5 +1,7 @@
 # Fenghe 个人工作台 · 本地独立蓝本
 
+版权所有 © 2026 [风禾永进](https://yongjin.tech) · [MIT License](LICENSE)
+
 这是可独立运行、可修改源码的本地版。数据默认在本目录的 data/，首次启动只创建缺失文件与虚构DEMO，不覆盖已有CSV。
 
 ## 直接运行

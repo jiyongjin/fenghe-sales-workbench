@@ -6,7 +6,7 @@ Public source repository: [jiyongjin/fenghe-sales-workbench](https://github.com/
 
 ## 发布前 / Before publishing
 
-1. 确认归属账号、公开范围及MIT选择。LICENSE使用项目贡献者集体署名；需个人/公司署名时确认主体后调整，不推测真实姓名。
+1. 确认归属账号、公开范围及MIT选择。本项目版权署名为[风禾永进](https://yongjin.tech)，LICENSE保留该署名与MIT许可条款。
 2. 复核源码、素材和第三方声明。项目MIT不改变依赖各自许可证。
 3. 只发布这个独立目录，不带原Git历史、托管身份或真实data；公开后被他人复制的信息不能保证收回。
 4. 运行类型检查、测试、构建和复刻验收。检查中英文README，确认截图和DEMO均为虚构。

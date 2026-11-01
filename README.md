@@ -4,6 +4,8 @@
 
 简体中文 · [English](README.en.md) · [GitHub 仓库](https://github.com/jiyongjin/fenghe-sales-workbench)
 
+版权所有 © 2026 [风禾永进](https://yongjin.tech) · [MIT License](LICENSE)
+
 知道下一步，接住灵感，看见积累。程序可独立运行，也可交给具备文件和终端能力的通用智能体复刻、定制和维护，不绑定某一家智能体产品。
 
 ![Fenghe 销售工作台首页：三空间聚合、四象限与目标进度](docs/images/desktop-home.jpg)
@@ -177,6 +179,8 @@ THIRD_PARTY_NOTICES.md  第三方声明与依赖清单
 ```
 
 ## 参与与许可
+
+版权所有：**[风禾永进](https://yongjin.tech)**（© 2026）。
 
 欢迎从问题描述、文档、易用性、数据可靠性和可访问性改进开始。请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，提交前移除个人数据并运行测试。
 

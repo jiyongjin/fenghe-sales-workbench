@@ -4,6 +4,8 @@
 
 [简体中文](README.md) · English · [GitHub repository](https://github.com/jiyongjin/fenghe-sales-workbench)
 
+Copyright © 2026 [风禾永进 (Fenghe Yongjin)](https://yongjin.tech) · [MIT License](LICENSE)
+
 Know your next step. Capture ideas. See your progress. Run the application independently, or use a general-purpose agent with authorized file and terminal access to reproduce, customize, and maintain it. No particular agent product is required.
 
 ![Fenghe dashboard with three workspaces, an action matrix, and goal progress](docs/images/desktop-home.jpg)
@@ -179,6 +181,8 @@ THIRD_PARTY_NOTICES.md  Third-party notices and dependency inventory
 ```
 
 ## Contributing and license
+
+Copyright © 2026 **[风禾永进 (Fenghe Yongjin)](https://yongjin.tech)**.
 
 Contributions to documentation, usability, data reliability, accessibility, and tests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md), remove personal data, and run the checks before submitting changes.
 

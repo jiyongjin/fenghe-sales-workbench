@@ -101,13 +101,13 @@
     },
     {
       "path": "LICENSE",
-      "sha256": "964d459e2031a97745d753d27f38d721fd739e63fa1c1c97ccc2edc99fab10a9",
+      "sha256": "f6246b976fd066c7bcd3bb39aa6c446efc225fc0de4f3989035e5f5a8ad229b0",
       "bytes": 1092
     },
     {
       "path": "README.md",
-      "sha256": "4a24bd1fb7ae8285a259b1a4c092d17e10486643fc58403005f746f5bdaf1f64",
-      "bytes": 1834
+      "sha256": "bf827ccaade98a98aea13c74da4d9f09446696865a2dcf2209aca0ad7dcbbd7d",
+      "bytes": 1919
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
