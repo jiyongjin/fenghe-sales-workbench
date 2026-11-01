@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 'use client';
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { ArrowDownToLine, ArrowRight, ArrowUpRight, BriefcaseBusiness, Check, ChevronDown, ChevronRight, Circle, FolderOpen, Heart, Home, Lightbulb, Menu, Moon, Plus, RefreshCw, Search, Settings2, Sparkles, Sun, Target, Trash2, Upload, X } from 'lucide-react';

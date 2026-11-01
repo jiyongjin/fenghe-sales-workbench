@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 import { readFile, readdir, access } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';

@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 import { SCHEMAS, TABLE_NAMES, columnsFor, createDemoData, validateRow, todayISO } from '@/lib/workbench-model.mjs';
 import { parseCsv, stringifyCsv } from '@/lib/csv.mjs';
 export type Row = Record<string, string>;

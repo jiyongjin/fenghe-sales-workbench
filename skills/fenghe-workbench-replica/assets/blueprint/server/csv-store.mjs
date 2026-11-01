@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 import { mkdir, readFile, writeFile, rename, copyFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash, randomUUID } from 'node:crypto';

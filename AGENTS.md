@@ -17,6 +17,7 @@ This is `fenghe-sales-workbench`: a local-first personal B2B sales application. 
 - Do not publish, create a public repository, alter firewall/listening scope, install global skills, configure autostart, or connect external models unless specifically authorized.
 - Do not stop unrelated processes to free a port. Use WORKBENCH_PORT for a copy.
 - Never commit data/, uploaded backgrounds, credentials, runtime logs, node_modules/, or original hosting identity/history.
+- Preserve Fenghe Yongjin copyright and SPDX headers in project-owned source, and retain upstream third-party notices.
 
 ## Code map
 

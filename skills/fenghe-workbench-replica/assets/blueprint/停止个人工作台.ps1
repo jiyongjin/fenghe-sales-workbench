@@ -1,4 +1,6 @@
-﻿$ErrorActionPreference = 'Stop'
+﻿# Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+# SPDX-License-Identifier: MIT
+$ErrorActionPreference = 'Stop'
 $runtimePidFile = Join-Path $PSScriptRoot 'data\runtime\server.pid'
 if (-not (Test-Path -LiteralPath $runtimePidFile)) { Write-Host '没有由一键启动器启动的工作台。'; exit 0 }
 $workbenchProcessId = [int](Get-Content -LiteralPath $runtimePidFile)

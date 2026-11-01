@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdtemp, readFile, writeFile, unlink } from 'node:fs/promises';

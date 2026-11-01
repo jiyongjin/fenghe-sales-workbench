@@ -1,3 +1,5 @@
+# Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+# SPDX-License-Identifier: MIT
 param([string]$OutputPath)
 $ErrorActionPreference = 'Stop'
 $sourceRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))

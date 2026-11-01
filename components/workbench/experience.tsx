@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 'use client';
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { ArrowRight, ArrowUpRight, BookOpen, Check, CheckCheck, Circle, Download, FilePenLine, Lightbulb, List, MessageCircle, Plus, Send, Sparkles, X } from 'lucide-react';

@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 /* FENGHE / Editorial workspace: one continuous canvas, purposeful color, readable type. */
 html,body{margin:0;min-height:100%}
 .wb{--ink:#172b47;--muted:#536882;--line:#29496926;--paper:#fff;--tint:#edf3fc;--accent:#245cd4;--accent-soft:#e0eaff;--on-accent:#fff;--wall:#dae6f9;--haze:#f0f5ff;--glow:#688ee6;--glow2:#b5b9f0;--work:#285dcc;--life:#b45025;--creator:#0b7f83;--danger:#ba3a3b;--gold:#936317;--body-size:16px;--meta-size:13px;--tiny-size:12px;--row-height:72px;--section-gap:22px;--hero-pad:20px;min-height:100vh;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:var(--body-size);line-height:1.55;background:var(--wall);isolation:isolate;font-weight:450;-webkit-font-smoothing:antialiased}

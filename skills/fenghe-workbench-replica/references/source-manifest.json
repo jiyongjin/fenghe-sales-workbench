@@ -1,7 +1,7 @@
 {
   "name": "Fenghe V4 local replication blueprint",
   "source_commit": "cf1918cc8c20f0b6521d430e087a66970c89ec1b",
-  "generated_at": "2026-11-01T08:03:30.923Z",
+  "generated_at": "2026-11-01T12:02:50.159Z",
   "source_files": [
     {
       "path": "index.html",
@@ -91,7 +91,8 @@
   "adaptations": [
     "Local-only package.json/package-lock and tsconfig; no Sites/Vinext/Cloudflare identity or build dependency",
     "README and .gitignore customized for portable local use; UI, CSV model and service source copied verbatim",
-    "GitHub-ready MIT metadata, portable agent instructions, and bundled third-party attribution; original UI/model/server source retained"
+    "GitHub-ready MIT metadata, portable agent instructions, and bundled third-party attribution; original UI/model/server source retained",
+    "Project-owned source includes Fenghe Yongjin copyright and MIT SPDX headers; source_files records original snapshot provenance"
   ],
   "blueprint_files": [
     {
@@ -116,28 +117,28 @@
     },
     {
       "path": "components/workbench/Workbench.tsx",
-      "sha256": "53437d4203ae8d2f951d595df33f10e7e7c677ea174af9b805e039b17057fb7f",
-      "bytes": 44644
+      "sha256": "1ef720e5b8ce3da46e625a1b27d6a61d8dbe4c61142f1bc9900f1d8bf80071c6",
+      "bytes": 44746
     },
     {
       "path": "components/workbench/data.ts",
-      "sha256": "77f37c44e67ab58a5ba4031e08e8c4ff145acc8b4e0b46aba30a4a094582baee",
-      "bytes": 14638
+      "sha256": "7c34b803a59cc91cebfac931c3f68687995f6e4c37500763878b0e69d2a53bb1",
+      "bytes": 14740
     },
     {
       "path": "components/workbench/experience.css",
-      "sha256": "fb94b8a814b2aef4d06933478d9a8eeaec81c4dfccd4da34bd51da5efcc031bd",
-      "bytes": 21997
+      "sha256": "d66074e5e15e91f027300d430d2a9825e5ab105ad96e5dfc7e8ed59cca1c8942",
+      "bytes": 22095
     },
     {
       "path": "components/workbench/experience.tsx",
-      "sha256": "92ed09c8bc1b83a0bd71bc539e69064d492f18d23e605a87d6e22ff8ee022a2a",
-      "bytes": 20088
+      "sha256": "8fbbb1e6a79695de429eaf0f796446e7aa7d564f2e2a8454fa3403675f796437",
+      "bytes": 20186
     },
     {
       "path": "components/workbench/workbench.css",
-      "sha256": "0a1cdc05bd3e803cc16c38e633cf5b33130c047967df52acc00b2416d2b1a307",
-      "bytes": 34526
+      "sha256": "9de32f51154dd953e39d21a83cfa50a9578b42aa5c598781bba06486aef6f071",
+      "bytes": 34628
     },
     {
       "path": "dist-local/assets/index-1ErjMxMw.js",
@@ -201,28 +202,28 @@
     },
     {
       "path": "index.html",
-      "sha256": "03ad73aba9578424d1f90c1f0300a816c8951911c27787c00efa6f4a805142f1",
-      "bytes": 278
+      "sha256": "d49ccfbeadef8d8a071a340f54f09f7a9595f3bf8befb01166bb989478762bf3",
+      "bytes": 377
     },
     {
       "path": "lib/companion.mjs",
-      "sha256": "de208ecedb48ca7519df4b5fd80d6812f8926ded73f3c12d935b7afaceaeb664",
-      "bytes": 4323
+      "sha256": "4e1af574424ab73f3935c2a37ccd2759a6bddf0bfe0d61c02de27d14cdbb306d",
+      "bytes": 4421
     },
     {
       "path": "lib/csv.mjs",
-      "sha256": "cb2ebc7118457eb382069830e09dd0eb43cb2de50f92a9dab310129aa4ae9c44",
-      "bytes": 1639
+      "sha256": "b2c8160eab639883cf03182417482dfc461289e59aceac3155ea20225a887bb6",
+      "bytes": 1741
     },
     {
       "path": "lib/workbench-model.mjs",
-      "sha256": "ac4f7c6df56ae818cd923e2299e63320fdcc57e6e552f5328b95a224d8cc0572",
-      "bytes": 20358
+      "sha256": "85b472bf959325498d7a21fa7d1b554fa5d42efdb0e1419d39de2d5eba5c73f5",
+      "bytes": 20460
     },
     {
       "path": "local-entry.tsx",
-      "sha256": "c58b17b3bb5a39aed7945258a4359dd4a54f2c2d0fef9ae9a47f54692a31c0c5",
-      "bytes": 289
+      "sha256": "94976d2e2d5565a9052fdea7d86bfbbfca9f29d7be41eade0ead53d267351fac",
+      "bytes": 391
     },
     {
       "path": "package-lock.json",
@@ -236,33 +237,33 @@
     },
     {
       "path": "server/csv-store.mjs",
-      "sha256": "811fbbd047208b8ccae194514ef84ee492ab045e948ebac273de964476bf6c8d",
-      "bytes": 6452
+      "sha256": "98a6bfa902a00c338af97942fdb788fdcf74110415db62efffcb92c5ca3a97f3",
+      "bytes": 6554
     },
     {
       "path": "server/local.mjs",
-      "sha256": "66aa6c832e60f7f42e10f34f4072e387bcb05a33737ae8c6cb0eee71c35b7f70",
-      "bytes": 4903
+      "sha256": "e3e0fa9a0ddf2d7483a1e091987e2f71ef684fba25b0d5d282e04339c297d598",
+      "bytes": 5005
     },
     {
       "path": "tests/appearance.test.mjs",
-      "sha256": "5003c8c1058ee3b4c3a7de49213842eb2795010992b322a5ec1ce072293d085d",
-      "bytes": 2538
+      "sha256": "a83a0d542f3839f6c3e2da230e63f3a1556832067be15abd06854513f246b817",
+      "bytes": 2636
     },
     {
       "path": "tests/csv-store.test.mjs",
-      "sha256": "883e3bfd9f580037f1f709ea1251bbaa6e9e600a2b2179a121819654055dc83f",
-      "bytes": 3832
+      "sha256": "d2501ff23cb0278e0dd97f760af065ecfff527faea75cca713458d1923db854d",
+      "bytes": 3934
     },
     {
       "path": "tests/experience.test.mjs",
-      "sha256": "e768ac2ebb37d8f999021b3f07d5d02fd67a7155f69e17c1b0102010e1d6d3b7",
-      "bytes": 3863
+      "sha256": "d14793fa674cea3a3625f7a4b0ef4c60259d3ee70373899f71c28e64ee8211f2",
+      "bytes": 3961
     },
     {
       "path": "tests/local-api.test.mjs",
-      "sha256": "779d72a637342e5e439ff83683829abfafbde0afd78e57915021ec82df43b0e3",
-      "bytes": 3934
+      "sha256": "6df324a63890d96a12aa7517e1ae4f3e584d7e15250cb2d817db0057e830d055",
+      "bytes": 4036
     },
     {
       "path": "third-party-licenses/@oxc-project__types/LICENSE",
@@ -401,28 +402,28 @@
     },
     {
       "path": "vite.local.config.ts",
-      "sha256": "f6423a63f7a9dae27a502468b032d7032f93daa8e9ab171b3ef4c60115e47e26",
-      "bytes": 289
+      "sha256": "8ce8a8b80e0ce43c9063393a79eb97bc3e837edbb36e02d5b6a7f80a2ba084b9",
+      "bytes": 391
     },
     {
       "path": "停止个人工作台.cmd",
-      "sha256": "cc5ff2a20d88d472406bab9abc72d09082681fb0f29a976a5d14de683955caa9",
-      "bytes": 121
+      "sha256": "333d1f51b36c19e2379bdb4bdbbae5164578cd4929b05f89d402d8183a394f00",
+      "bytes": 215
     },
     {
       "path": "停止个人工作台.ps1",
-      "sha256": "2c3a6ac016fb5fd66569f7d7bebbf7502df8e1320a65214587d6420eef9cda24",
-      "bytes": 766
+      "sha256": "e0086f5374225b4c2597e523f41dc87cfd2242c0099893b48853370ce5e213c4",
+      "bytes": 856
     },
     {
       "path": "启动个人工作台.cmd",
-      "sha256": "722a737e18e5f471ed5e115bb060b53c4b365b6f8bd6b51c07f8bc4637925844",
-      "bytes": 137
+      "sha256": "02b1a94120a88d8c35c46791b7e7276a7b901a08b99adbb1e25e6f722a45c8aa",
+      "bytes": 231
     },
     {
       "path": "启动个人工作台.ps1",
-      "sha256": "6bf10ce1fabbff32b1cbd507dc98cb752cc55ed0d380b6de5131d38961cc72a2",
-      "bytes": 2160
+      "sha256": "34e94559d36f0fa0d0e9c7e7911d88fea0c371babbd28dcf4b56f4b160f86253",
+      "bytes": 2250
     }
   ],
   "excluded": [

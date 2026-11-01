@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import Workbench from './components/workbench/Workbench';

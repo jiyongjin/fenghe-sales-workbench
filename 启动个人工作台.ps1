@@ -1,4 +1,6 @@
-﻿param([switch]$NoBrowser)
+﻿# Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+# SPDX-License-Identifier: MIT
+param([switch]$NoBrowser)
 $ErrorActionPreference = 'Stop'
 $workbenchProject = $PSScriptRoot
 $workbenchPort = if ($env:WORKBENCH_PORT) { [int]$env:WORKBENCH_PORT } else { 4318 }

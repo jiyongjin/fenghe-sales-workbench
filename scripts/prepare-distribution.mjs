@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 // Generate local attribution artifacts and refresh only this repository's portable blueprint.
 // Does not publish, inspect operational data, or modify the original application.
 import { readFile, writeFile, mkdir, readdir, copyFile, stat } from 'node:fs/promises';

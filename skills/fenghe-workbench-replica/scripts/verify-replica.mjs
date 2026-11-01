@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 import assert from 'node:assert/strict';
 import { readFile, mkdtemp } from 'node:fs/promises';
 import { createHash } from 'node:crypto';

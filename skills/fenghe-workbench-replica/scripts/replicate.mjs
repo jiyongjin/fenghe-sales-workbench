@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 import { mkdir, readdir, lstat, readFile, writeFile, copyFile } from 'node:fs/promises';
 import { constants } from 'node:fs';
 import path from 'node:path';

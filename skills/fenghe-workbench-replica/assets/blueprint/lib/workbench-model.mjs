@@ -1,3 +1,7 @@
+/*!
+ * Copyright (c) 2026 风禾永进 (https://yongjin.tech)
+ * SPDX-License-Identifier: MIT
+ */
 export const SCHEMAS = {
   notes: { title: '灵感手记', area: 'all', fields: [
     { key: 'title', label: '标题', required: true }, { key: 'body', label: '灵感 / 心得 / 速记', type: 'textarea', required: true },
