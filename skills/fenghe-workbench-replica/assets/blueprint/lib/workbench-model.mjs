@@ -137,7 +137,7 @@ export function createDemoData() {
   let seq = 0;
   const add = (table, values, userId = 'person-yongjin') => { const row = { ...defaultsFor(table, userId), id: `${table}-${++seq}`, ...values, updated_at: new Date().toISOString() }; tables[table].push(row); return row; };
   add('profiles', { id: 'person-yongjin', name: '永进', birthday: '1988-06-18', role: 'ToB 大客户销售', side_name: '创作成长' });
-  add('profiles', { id: 'person-lin', name: '林致远', birthday: '1994-09-12', role: '独立顾问', theme: '潮汐', side_enabled: '关闭' });
+  add('profiles', { id: 'person-lin', name: '致远', birthday: '1994-09-12', role: '独立顾问', theme: '潮汐', side_enabled: '关闭' });
   add('notes', { title: '客户不是要更多功能，而是更少的不确定性', body: '今天拜访时想到：先把决策人最担心的风险讲清楚，再讨论功能清单。可以写成一个销售案例。', kind: '心得', date: today, tags: '销售,内容选题' });
   add('notes', { title: '工作台视频开场', body: '不要先展示功能。先问：你每天打开电脑，能不能在十秒内知道最该做的事？再展示四象限和灵感入口。', kind: '灵感', date: day(-1), tags: '视频,WorkBuddy' });
   const c1 = add('customers', { name: '华东智造集团', tier: 'S', industry: '高端制造', contact: '周岚', contact_role: '数字化平台主管', anniversary: day(8), hobby: '马拉松、咖啡', next_action: '邀请财务负责人参加试点会', notes: '虚构演示客户' });

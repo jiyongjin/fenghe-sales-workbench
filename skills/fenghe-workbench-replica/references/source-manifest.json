@@ -1,7 +1,7 @@
 {
   "name": "Fenghe V4 local replication blueprint",
   "source_commit": "cf1918cc8c20f0b6521d430e087a66970c89ec1b",
-  "generated_at": "2026-11-01T12:02:50.159Z",
+  "generated_at": "2026-11-01T12:50:36.556Z",
   "source_files": [
     {
       "path": "index.html",
@@ -141,64 +141,19 @@
       "bytes": 34628
     },
     {
-      "path": "dist-local/assets/index-1ErjMxMw.js",
-      "sha256": "ae9c47a5fc0aa34272d2ecc363284cc8a74046d9fbea0d8ab24e85bfb41a1a30",
-      "bytes": 282447
+      "path": "dist-local/assets/index-0nFTn_FP.js",
+      "sha256": "fe4311fd62a7cb554a28e70c97f0c01b354398a0aeefd7a7a8411b1e233d1bf5",
+      "bytes": 282494
     },
     {
-      "path": "dist-local/assets/index-1Odq-ew1.js",
-      "sha256": "3be97d1e6f0fd90bd43e9504f8b9517d9fab5400b738e2c29a79b8270326102d",
-      "bytes": 254587
-    },
-    {
-      "path": "dist-local/assets/index-B5LA4yrr.js",
-      "sha256": "b697194214535f2c2a57795bea331267e9d53226c8f6c378ab883af2395c8384",
-      "bytes": 282497
-    },
-    {
-      "path": "dist-local/assets/index-BA-cUYGM.js",
-      "sha256": "3be97d1e6f0fd90bd43e9504f8b9517d9fab5400b738e2c29a79b8270326102d",
-      "bytes": 254587
-    },
-    {
-      "path": "dist-local/assets/index-BGb6SDGY.js",
-      "sha256": "6cdf2dd2f53347e299a24e165157b2a6bac4462d9e36429bed502d4a109fed5d",
-      "bytes": 281549
-    },
-    {
-      "path": "dist-local/assets/index-BIyzcR-I.css",
-      "sha256": "8c19703a5922f7315826f4da5beb24e01a06d82e9033749b5cc79efd8c323d13",
-      "bytes": 56100
-    },
-    {
-      "path": "dist-local/assets/index-Bj9x-XTR.js",
-      "sha256": "b121153b98140b23f8c28f5ed1e439e877dae8b7932b028fdb9d898e5dd790be",
-      "bytes": 282399
-    },
-    {
-      "path": "dist-local/assets/index-CkNN3KJJ.js",
-      "sha256": "b697194214535f2c2a57795bea331267e9d53226c8f6c378ab883af2395c8384",
-      "bytes": 282497
-    },
-    {
-      "path": "dist-local/assets/index-CxVWcHNn.css",
-      "sha256": "07d1954706e8e488c5dde198e16209c3b481dce718f0a7d9b10a8f713cadaa8f",
-      "bytes": 55933
-    },
-    {
-      "path": "dist-local/assets/index-D4kCd_jn.css",
-      "sha256": "d2953f6ab997ceaf59eeb1070c02d1d5051f8db733bd2c2138921cc55e9592be",
-      "bytes": 33653
-    },
-    {
-      "path": "dist-local/assets/index-DKLlZWg-.css",
-      "sha256": "b249bbd78203b5b4443f6d98ffceb474ab48789b90e31f9cf2d480f5465bfa63",
-      "bytes": 34269
+      "path": "dist-local/assets/index-DXbS1ECL.css",
+      "sha256": "b670c791858772c702adced58489233e1a2fdff6b597a69f44323bc94d2ebe83",
+      "bytes": 56201
     },
     {
       "path": "dist-local/index.html",
-      "sha256": "e161a188308564a82c1f66958395fcf812e935a231777f8f2ef37c6a2e7d4308",
-      "bytes": 374
+      "sha256": "1eb36e0846a0b555932cd003505ea2d04f4be4c5e17c0f1fb5a5eab19c15e2c0",
+      "bytes": 473
     },
     {
       "path": "index.html",
@@ -217,8 +172,8 @@
     },
     {
       "path": "lib/workbench-model.mjs",
-      "sha256": "85b472bf959325498d7a21fa7d1b554fa5d42efdb0e1419d39de2d5eba5c73f5",
-      "bytes": 20460
+      "sha256": "395244d48502f218b57a3fdc74c32b714c91989e862ecb2947516da22756fcdb",
+      "bytes": 20457
     },
     {
       "path": "local-entry.tsx",
